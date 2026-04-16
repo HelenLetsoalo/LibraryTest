@@ -10,7 +10,7 @@ public class Book extends LibraryItem {
 
     @Override
     public String toString() {
-        return getTitle() + "Author: " + author + "Genre: " + genre;
+        return "Title: " + " " +getTitle() + " " + "Author: " + author + "Genre: " + genre;
     }
     
 }

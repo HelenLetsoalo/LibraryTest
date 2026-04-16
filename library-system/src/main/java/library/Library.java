@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class Library extends LibraryItem{
     private ArrayList<Book> books;
 
-    public Library(String title, String id, ArrayList<Book> books) {
+    public Library(String title, String id) {
         super(title, id);
         this.books = new ArrayList<>(books);
     }

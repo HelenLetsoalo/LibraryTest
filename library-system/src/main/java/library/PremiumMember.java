@@ -8,6 +8,10 @@ public class PremiumMember extends Member {
         this.maxBooksAllowed = maxBooksAllowed;
 
     }
+    @Override
+    void borrowBook() {
+        
+    }
 
     
 }
